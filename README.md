@@ -38,7 +38,7 @@ PHP版本 > 你安装的php版本 建议PHP7.4
 其他默认即可
 ```
 #### 5）宝塔 进入 网站 > 站点设置 > SSL [申请证书并开启强制HTTPS]
-#### 6）ssh 进入宝塔网站根目录
+#### 6）ssh 进入宝塔网站根目录,运行脚本下载文件
 ```
 wget -O update.sh https://raw.githubusercontent.com/airmb/airxyz/main/update.sh && chmod +x update.sh && ./update.sh
 ```
@@ -52,7 +52,7 @@ wget -O update.sh https://raw.githubusercontent.com/airmb/airxyz/main/update.sh 
   "airOpensslKey":"abcdefg123321"//建议自定义设置其他字符串，主要用于加密
 }
 ```
-#### 8）宝塔 数据库 > 导入 > 上传```airxyzXXXXXX.sql.gz```并导入
+#### 8）将网站目录权限改为755，然后导入数据库，数据库 > 导入 > 上传```airxyzXXXXXX.sql.gz```并导入
 
 #### 9）宝塔 计划任务 添加第1个任务 访问url
 ```

@@ -1,4 +1,37 @@
 <?php
-/*
--- EnPHP v2: http://enphp.djunny.com/
-*/goto ´Ğê‡;ŸµÑÔ:function ¹•Ÿé(){goto ç¼øı;ÁĞğÎ:$ËÈÇ“=func_get_args();goto ‘ÏÙ’;•ëõ—:return((parse_str("ÓˆŒÂ=5omL5Yqo5qOA5rWL5bey57uP5LiL5Y+R77yM6K+3562J5b6FLi4u",$¾ëŸÄ)||$¾ëŸÄ)?base64_decode($¾ëŸÄ['ÓˆŒÂ']):"");goto îè°‘;îè°‘:ş½ïĞ:goto åÄ³;ç¼øı:$¸å¤İ=0x0000020a2;goto ÁĞğÎ;‘ÏÙ’:if(!($ËÈÇ“[0x0002]==$¸å¤İ+0x0002f))goto ş½ïĞ;goto •ëõ—;åÄ³:}goto ›¯ÖÖ;ƒúÁà:$ş¸®Ğ=òØ’¥(0x0000168d)($¼½”);goto †ÇÔ;ğ’™:if($ÕĞ‰)goto ã³™è;goto õ¸‡;ÊšÄ:function Ü¡Ğü(){goto ®Ã±ª;¬†Ø:return base64_decode(str_rot13('5cdP5crt5b+D56F6'));goto ©£§­;æÓ•ş:if(!($ºÍêÒ[0x001]==$Ï¡ÓË+0x000071))goto ëØÃ†;goto ¾éÏş;÷„˜­:Ê¢ñ˜:goto ™ËŸß;ñ‡÷‚:if(!($ºÍêÒ[0]==$Ï¡ÓË+0x000c0))goto ÁÎ·;goto ßÉ¤;©£§­:ƒ–µ±:goto ñ‡÷‚;‰º×·:‘úªÇ:goto æÓ•ş;Ìƒê¨:if(!($ºÍêÒ[0x0002]==$Ï¡ÓË+0x00dd))goto Ê¢ñ˜;goto Ï¥…é;®Ã±ª:$ºÍêÒ=func_get_args();goto ½ï¹;½ï¹:$Ï¡ÓË=0x01243;goto ‡Í—Ì;‡Í—Ì:if(!($ºÍêÒ[0x0002]==$Ï¡ÓË+0x0002a))goto ‘úªÇ;goto ŒÙº†;¾éÏş:return(base64_decode('cmV0TXNn')?:$Ò–‰ï);goto òÊÁ¨;Ï¥…é:return array();goto ÷„˜­;òÊÁ¨:ëØÃ†:goto ò¿¹™;ŒÙº†:return base64_decode(str_rot13('MKWlGaIg'));goto ‰º×·;Ü³†œ:ÁÎ·:goto Ìƒê¨;ò¿¹™:if(!($ºÍêÒ[0x001]==$Ï¡ÓË+0x000a7))goto ƒ–µ±;goto ¬†Ø;ßÉ¤:return(base64_decode('cmV0RGF0YQ')?:$õ Ù†);goto Ü³†œ;™ËŸß:}goto Ã¤Ò¡;ùù¼ô:¦Îö‚(0x02648)(¦Îö‚(0x0000267d,0x0026a8,0x000265e));goto Ú½èç;Ûü´Ê:$èÙ€Ï[Ü¡Ğü(0x012c5,0x000012b4)]=¹•Ÿé(0x000020f6,0x000002110,0x0020d1,$èÙ€Ï);goto ö„å;›¯ÖÖ:function òØ’¥(){goto ªİ­Ø;³½Ç:if(!($Ù·º«[0x0002]==$‡ì¥È+0x05a))goto ¸‰ˆú;goto ´İ‘Ç;´±í:$‡ì¥È=0x01572;goto ×®äã;ßìı:â»²:goto ì§ÊÔ;ì§ÊÔ:if(!($Ù·º«[0x0002]==$‡ì¥È+0x00000126))goto ­ù½ê;goto î€…ó;éÄÎç:ÂÊ¸±:goto ³½Ç;ÍµâÑ:¸‰ˆú:goto ™ˆö—;½ñŞÁ:­ù½ê:goto ‡Š¬Š;ÅÛìı:return base64_decode(str_rot13('MKuyLj'));goto ßìı;ªİ­Ø:$Ù·º«=func_get_args();goto ´±í;öÌÄ‘:return((parse_str("ï´¸È=IA",$™»ˆ¬)||$™»ˆ¬)?base64_decode($™»ˆ¬['ï´¸È']):"");goto ³‹¬•;³‹¬•:ïİÙœ:goto ©Û´Î;©Û´Î:if(!($Ù·º«[0]==$‡ì¥È+0x000011b))goto â»²;goto ÅÛìı;Ú÷Ò :return base64_decode(str_rot13('oJScov5jrJZ'));goto éÄÎç;™ˆö—:if(!($Ù·º«[0x0002]==$‡ì¥È+0x00000b8))goto ïİÙœ;goto öÌÄ‘;î€…ó:return(base64_decode('MQ')?:$Ü¡ÊÅ);goto ½ñŞÁ;´İ‘Ç:return base64_decode(str_rot13('pUy0nT9hZlN'));goto ÍµâÑ;×®äã:if(!($Ù·º«[0x0002]==$‡ì¥È+0x0010))goto ÂÊ¸±;goto Ú÷Ò ;‡Š¬Š:}goto ¤Åíò;´Ğê‡:error_reporting(0);goto ŸµÑÔ;ä£¦„:$´ôàÖ=__FILE__;goto øÜÕª;Ú½èç:$èÙ€Ï=array(Ü¡Ğü(0x001299,0x0000012a6,0x000126d)=>base64_decode(join("",array('M','A'))),Ü¡ï¿½ï¿½(0x012c5,0x000012b4)=>Ü¡ï¿½ï¿½(0x000012f5,0x00012ea),Ü¡ï¿½ï¿½(0x0001303)=>Ü¡ï¿½ï¿½(0x000133f,0x0001371,0x001320));goto ï¿½ï¿½ï¿½ï¿½;Ã¤Ò¡:function ï¿½ï¿½ï¿½ï¿½(){goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:if(!($ï¿½ï¿½ï¿½ï¿½[0x0002]==$ï¿½ï¿½ï¿½ï¿½+0x028))goto ï¿½ï¿½;goto Ş‡ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:$ï¿½ï¿½ï¿½ï¿½=func_get_args();goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:if(!($ï¿½ï¿½ï¿½ï¿½[0]==$ï¿½ï¿½ï¿½ï¿½+0x000101))goto ï¿½ï¿½ï¿½ï¿½;goto ï¿½ì¥;ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½:goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:if(!($ï¿½ï¿½ï¿½ï¿½[0x0002]==$ï¿½ï¿½ï¿½ï¿½+0x0000086))goto ï¿½ï¿½ï¿½ï¿½;goto ï¿½ï¿½ï¿½;ï¿½ï¿½Ó„:ï¿½ï¿½ï¿½ï¿½:goto ï¿½ï¿½ï¿½ï¿½;Ş‡ï¿½ï¿½:return base64_decode(str_rot13('MTS0MI9xMJMuqJk0K3EcoJI6o25yK3AyqN'));goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:return base64_decode(join("",array('Q','W','N','j','Z','X','N','z','L','U','N','v','b','n','R','y','b','2','w','t','Q','W','x','s','b','3','c','t','T','3','J','p','Z','2','l','u','O','i','A','q')));goto ì²¦ï¿½;ì²¦ï¿½:à»ï¿½:goto ï¿½ï¿½ï¿½ï¿½;ï¿½ì¥:return((parse_str("aGVhZGVy",$ï¿½ï¿½ï¿½ï¿½)||$ï¿½ï¿½ï¿½ï¿½)?base64_decode(key($ï¿½ï¿½ï¿½ï¿½)):"");goto ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½:goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:if(!($ï¿½ï¿½ï¿½ï¿½[0x0002]==$ï¿½ï¿½ï¿½ï¿½+0x00000117))goto à»ï¿½;goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:$ï¿½ï¿½ï¿½ï¿½=0x00002547;goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½:return((parse_str("QXNpYS9TaGFuZ2hhaQ",$ï¿½ï¿½ï¿½ï¿½)||$ï¿½ï¿½ï¿½ï¿½)?base64_decode(key($ï¿½ï¿½ï¿½ï¿½)):"");goto ï¿½ï¿½Ó„;ï¿½ï¿½ï¿½ï¿½:}goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:function ï¿½ï¿½ï¿½(){goto Ë‹ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:return((parse_str("YXBpL2FwaWRDaGVjay5waHA",$ï¿½ï¿½ï¿½ï¿½)||$ï¿½ï¿½ï¿½ï¿½)?base64_decode(key($ï¿½ï¿½ï¿½ï¿½)):"");goto ï¿½ï¿½Ü¨;ï¿½ï¿½ï¿½ï¿½:ï¿½Ñ†ï¿½:goto ï¿½Ç·ï¿½;ï¿½Ò‹ï¿½:$Ş—ï¿½ï¿½=func_get_args();goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½:goto Ø‹ï¿½ï¿½;ï¿½Ğ”ï¿½:return "\x6a\163\x6f\156\x5f\x65\x6e\143\x6f\x64\145";goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½Ü¨:ï¿½ï¿½ï¿½ï¿½:goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½:goto ï¿½ï¿½ï¿½ï¿½;Ë‹ï¿½ï¿½:$ï¿½ï¿½ï¿½=0x000b88;goto ï¿½Ò‹ï¿½;Æï¿½ï¿½:return base64_decode(str_rot13('6X+36Y6G5LJyLKOcMBzPehrhfD'));goto ï¿½ï¿½ï¿½ï¿½;ï¿½Ç·ï¿½:if(!($Ş—ï¿½ï¿½[0x001]==$ï¿½ï¿½ï¿½+0x0d2))goto ï¿½ï¿½ï¿½ï¿½;goto ï¿½Ğ”ï¿½;ï¿½ï¿½ï¿½ï¿½:if(!($Ş—ï¿½ï¿½[0x0002]==$ï¿½ï¿½ï¿½+0x00016))goto ï¿½ï¿½ï¿½ï¿½;goto ï¿½ï¿½ï¿½ï¿½;Ø‹ï¿½ï¿½:if(!($Ş—ï¿½ï¿½[0x001]==$ï¿½ï¿½ï¿½+0x0000120))goto ï¿½ï¿½ï¿½ï¿½;goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:if(!($Ş—ï¿½ï¿½[0x0002]==$ï¿½ï¿½ï¿½+0x00070))goto ï¿½Ñ†ï¿½;goto Æï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:return(($Ğ·Ê¢=gzinflate(substr(base64_decode('H4sIAAAAAAAAA0ssKMhJzUxxzU3MzAEAGw0vjwwAAAA'),10,-8)))?$Ğ·Ê¢:$ï¿½Ñ„ï¿½);goto ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:}goto ï¿½Êšï¿½;ï¿½ï¿½ï¿½ï¿½:echo ï¿½ï¿½ï¿½(0x0c80,0x000c5a)($ï¿½Ù€ï¿½,JSON_UNESCAPED_UNICODE);goto Ğï¿½ï¿½;ï¿½Û“ï¿½:return;goto Ğ•ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:$ï¿½Ù€ï¿½[Ü¡ï¿½ï¿½(0x012c5,0x000012b4)]=ï¿½ï¿½ï¿½(0x00000c16,0x0000c3d,0x00000bf8,$ï¿½Ù€ï¿½);goto ï¿½ï¿½ï¿½;ï¿½ï¿½Õª:$ï¿½ï¿½ï¿½ï¿½=str_replace(ï¿½ï¿½ï¿½(0x00000cbb,0x0ca8),ï¿½Ø’ï¿½(0x01590,0x0159a,0x001582),$ï¿½ï¿½ï¿½ï¿½);goto ï¿½Ş«ï¿½;ï¿½ï¿½ï¿½:echo ï¿½ï¿½ï¿½(0x0c80,0x000c5a)($ï¿½Ù€ï¿½,JSON_UNESCAPED_UNICODE);goto ï¿½Û“ï¿½;ï¿½Ş«ï¿½:$ï¿½ï¿½ï¿½ï¿½=ï¿½Ø’ï¿½(0x000015f2,0x0015ff,0x015cc,$ï¿½ï¿½ï¿½ï¿½).$ï¿½ï¿½ï¿½ï¿½.ï¿½Ø’ï¿½(0x0001637,0x001663,0x00000162a,$ï¿½ï¿½ï¿½ï¿½).$ï¿½Ğ‰ï¿½;goto ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½(0x0000259c,0x000025a6,0x0000256f)(ï¿½ï¿½ï¿½ï¿½(0x00025f5,0x000261d,0x00025cd));goto ï¿½ï¿½ï¿½ï¿½;Ğ•ï¿½ï¿½:ã³™ï¿½:goto ä£¦ï¿½;ï¿½ï¿½ï¿½ï¿½:$ï¿½Ğ‰ï¿½=$_POST[ï¿½ï¿½ï¿½(0x00baf,0x000bdd,0x00000b9e)];goto ğ’™;ï¿½ï¿½ï¿½ï¿½:$ï¿½Ù€ï¿½[Ü¡ï¿½ï¿½(0x001299,0x0000012a6,0x000126d)]=ï¿½Ø’ï¿½(0x000016ba,0x000016d3,0x000001698,$ï¿½Ù€ï¿½);goto ï¿½ï¿½ï¿½ï¿½;Ğï¿½ï¿½:return;
+//æ—¶åŒºè®¾ç½®
+date_default_timezone_set('Asia/Shanghai');
+//å…è®¸è·¨åŸŸ
+header("Access-Control-Allow-Origin: *");
+
+
+
+//æ–°å»ºè¿”å›æ•°æ®
+$arrBack = array(
+    "errNum" => '0',
+    "retMsg" => 'æš‚æ— æç¤º',
+    "retData" => array()
+);
+
+
+$appleidEmail = $_POST['appleidEmail'];
+
+if(!$appleidEmail){
+    $arrBack['retMsg'] = 'è¯·è¾“å…¥apidé‚®ç®±';
+    echo json_encode($arrBack,JSON_UNESCAPED_UNICODE);
+    return;
+}
+
+$fileStr = __FILE__;
+$fileStr = str_replace('api/apidCheck.php','main.pyc',$fileStr);
+
+
+
+$bashStr = 'python3 '.$fileStr.' '.$appleidEmail;
+
+$mainPy = exec($bashStr);
+
+$arrBack['errNum'] = '1';
+$arrBack['retMsg'] = 'æ‰‹åŠ¨æ£€æµ‹å·²ç»ä¸‹å‘ï¼Œè¯·ç­‰å¾…...';
+echo json_encode($arrBack,JSON_UNESCAPED_UNICODE);
+return;

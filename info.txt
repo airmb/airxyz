@@ -1,0 +1,8 @@
+{
+  "air_host":"111",
+  "air_Refresh":"10",
+  "sql_hostname":"localhost",
+  "sql_username":"111",
+  "sql_passwd":"fxr42f6pzts8HD572",
+  "airOpensslKey":"3832hhsdnue832322ddd0cna"
+}

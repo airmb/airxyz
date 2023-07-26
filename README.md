@@ -6,7 +6,7 @@ air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自�
 
 #### 1）安装宝塔 安装基础脚本 务必使用debian11系统
 ```
-wget -O install.sh http://v7.hostcli.com/install/install-ubuntu_6.0.sh && bash install.sh
+wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && bash install.sh ed8484bec
 ```
 ```
 apt update

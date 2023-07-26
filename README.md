@@ -1,6 +1,8 @@
 # airxyz
 air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自动解锁
 
+全新自动解锁苹果Apple ID账号 自动解锁 自动关闭手机双重验证 自动删除设备 自动适配密保安全问题 定时任务
+
 官方telegram群 [t.me/apidlock](t.me/apidlock)
 
 功能：
@@ -10,6 +12,10 @@ air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自�
 * AppleID 一键分享
 * AppleID 代理IP解锁
 * AppleID 解锁teletram通知
+
+  [![AppleID_Unlock.png](https://github.com/airmb/airxyz/blob/main/demoImg/demo1.png?raw=true)]()
+  [![AppleID_Unlock.png](https://github.com/airmb/airxyz/blob/main/demoImg/demo2.png?raw=true)]()
+  
 
 
 
@@ -96,4 +102,13 @@ python3 /www/wwwroot/网站目录名称/main.pyc
 ```
 wget -O airxyz.sh https://raw.githubusercontent.com/airmb/airxyz/main/airxyz.sh && chmod +x airxyz.sh && ./airxyz.sh
 ```
+
+
+### 常见问题
+* 【问1】为什么不能删除绑定手机/二次验证
+* 【答1】必须要有 ```donnot recognize this number?```（不认识这个号码吗？）提示才可以删除。参考下面两个图片，自行对比。目前我们会提示```此账号无法通过密保删除手机二次验证，请更换账号```
+
+ [![AppleID_Unlock.png](https://github.com/airmb/airxyz/blob/main/demoImg/phone1.png?raw=true)]()
+ 
+ [![AppleID_Unlock.png](https://github.com/airmb/airxyz/blob/main/demoImg/phone2.png?raw=true)]()
 

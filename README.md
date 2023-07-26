@@ -3,6 +3,16 @@ air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自�
 
 官方telegram群 [t.me/apidlock](t.me/apidlock)
 
+功能：
+* 服务器监控
+* 空气加密隧道线路组建
+* AppleID 自动解锁 自动删除手机绑定
+* AppleID 一键分享
+* AppleID 代理IP解锁
+* AppleID 解锁teletram通知
+
+
+
 ## 服务端 安装教程
 ### 空气面板 airxyz 服务端 基于宝塔详细安装教程
 

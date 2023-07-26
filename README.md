@@ -1,6 +1,8 @@
 # airxyz
 air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自动解锁
 
+官方telegram群 [t.me/apidlock](t.me/apidlock)
+
 ## 服务端 安装教程
 ### 空气面板 airxyz 服务端 基于宝塔详细安装教程
 

@@ -22,7 +22,7 @@ air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自�
 ## 服务端 安装教程
 ### 空气面板 airxyz 服务端 基于宝塔详细安装教程
 
-#### 1）安装宝塔 安装基础脚本 务必使用debian11系统 最新可以脚本异步宝塔官网
+#### 1）安装宝塔 安装基础脚本 务必使用debian11系统 最新脚本可以查看宝塔官网
 ```
 wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && bash install.sh ed8484bec
 ```
@@ -96,7 +96,7 @@ https://网站域名/api/airTimerAll.php
 python3 /www/wwwroot/网站目录名称/main.pyc
 ```
 
-#### 12）尝试打开域名访问面板 默认账号密码 ```admin@airxyz.com``` ```111111```
+#### 12）尝试打开域名访问面板 默认账号密码 ```admin@airxyz.xyz``` ```111111```
 
 ## 其他---客户端 一键脚本
 ```

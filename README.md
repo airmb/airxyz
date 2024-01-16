@@ -22,9 +22,9 @@ air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自�
 ## 服务端 安装教程
 ### 空气面板 airxyz 服务端 基于宝塔详细安装教程
 
-#### 1）安装宝塔 安装基础脚本 务必使用debian11系统(建议使用国外服务器，国内服务器屏蔽了一些国外api导致有数不清问题） 最新脚本可以查看宝塔官网
+#### 1）安装宝塔(此脚本为第三方纯净版本) 安装基础脚本 务必使用debian11系统(建议使用国外服务器，国内服务器屏蔽了一些国外api导致有数不清问题） 最新脚本可以查看宝塔官网
 ```
-wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && bash install.sh ed8484bec
+wget -O install.sh http://v7.hostcli.com/install/install-ubuntu_6.0.sh && bash install.sh
 ```
 ```
 apt update
@@ -74,7 +74,7 @@ wget -O update.sh https://raw.githubusercontent.com/airmb/airxyz/main/update.sh 
 
 #### 9）宝塔 计划任务 添加第1个任务 访问url
 ```
-# 任务名称 随便写
+# 任务名称 air服务器在线状况监控
 # 执行周期 N分钟 设置3分钟
 # URL地址如下
 https://网站域名/api/airTimer.php
@@ -82,7 +82,7 @@ https://网站域名/api/airTimer.php
 
 #### 10）宝塔 计划任务 添加第2个任务 访问url
 ```
-# 任务名称 随便写
+# 任务名称 air中转线路监控
 # 执行周期 N分钟 设置1分钟
 # URL地址如下
 https://网站域名/api/airTimerAll.php
@@ -90,7 +90,7 @@ https://网站域名/api/airTimerAll.php
 
 #### 11）宝塔 计划任务 添加第3个任务 shell脚本
 ```
-# 任务名称 随便写
+# 任务名称 air定时解锁appleid账号
 # 执行周期 N分钟 设置5分钟
 # 脚本如下
 python3 /www/wwwroot/网站目录名称/main.pyc

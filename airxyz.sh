@@ -106,20 +106,16 @@ function allCrond(){
 
         for i in {1..10}
         do
-        in_last=$(cat /proc/net/dev | grep ${eth} | sed -e "s/\(.*\)\:\(.*\)/\2/g" | awk '{print $1 }')
-        out_last=$(cat /proc/net/dev | grep ${eth} | sed -e "s/\(.*\)\:\(.*\)/\2/g" | awk '{print $9 }')
-        sleep ${interval}
-        in=$(cat /proc/net/dev | grep $eth | sed -e "s/\(.*\)\:\(.*\)/\2/g" | awk '{print $1 }')
-        out=$(cat /proc/net/dev | grep $eth | sed -e "s/\(.*\)\:\(.*\)/\2/g" | awk '{print $9 }')
-        #单位为KByte
-        traffic_in=`echo ${in} ${in_last} | awk '{printf "%.0f", ($1-$2)/1024}'`
-        traffic_out=`echo ${out} ${out_last} | awk '{printf "%.0f", ($1-$2)/1024}'`
-
-        echo "总下载 ${in_last} KB"
-        echo "总上传 ${out_last} KB"
+        
 
         in_last=$(awk 'NR>2 {rx_sum += $2} END {printf "%.0f\n", rx_sum}' /proc/net/dev)
         out_last=$(awk 'NR>2 {rx_sum += $10} END {printf "%.0f\n", rx_sum}' /proc/net/dev)
+        sleep ${interval}
+        in=$(awk 'NR>2 {rx_sum += $2} END {printf "%.0f\n", rx_sum}' /proc/net/dev)
+        out=$(awk 'NR>2 {rx_sum += $10} END {printf "%.0f\n", rx_sum}' /proc/net/dev)
+        #单位为KByte
+        traffic_in=`echo ${in} ${in_last} | awk '{printf "%.0f", ($1-$2)/1024}'`
+        traffic_out=`echo ${out} ${out_last} | awk '{printf "%.0f", ($1-$2)/1024}'`
         echo "-----"
         echo "总下载 ${in_last} KB"
         echo "总上传 ${out_last} KB"

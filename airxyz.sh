@@ -118,8 +118,8 @@ function allCrond(){
         echo "总下载 ${in_last} KB"
         echo "总上传 ${out_last} KB"
 
-        in_last=$(awk 'NR>2 {rx_sum += $2} END {printf "%d\n", rx_sum}' /proc/net/dev)
-        out_last=$(awk 'NR>2 {rx_sum += $2} END {printf "%d\n", rx_sum}' /proc/net/dev)
+        in_last=$(awk 'NR>2 {rx_sum += $2} END {printf "%.0f\n", rx_sum}' /proc/net/dev)
+        out_last=$(awk 'NR>2 {rx_sum += $10} END {printf "%.0f\n", rx_sum}' /proc/net/dev)
         echo "-----"
         echo "总下载 ${in_last} KB"
         echo "总上传 ${out_last} KB"

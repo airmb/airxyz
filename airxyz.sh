@@ -99,10 +99,8 @@ function allCrond(){
         runTime=$(who -r |awk '{print($3,$4)}')
 
         #网卡名
-        eth=$(awk 'BEGIN {max = 0} {if ($2+0 > max+0) {max=$2 ;content=$0} } END {print $1}' /proc/net/dev |sed 's/.$//g')
-        if [[ $eth = "lo" ]]; then
-              eth='eth0'
-        fi
+        eth=$(awk 'NR>2 {rx=$2; tx=$10; if (rx+tx > max) {max=rx+tx; interface=$1}} END {print interface}' /proc/net/dev |sed 's/.$//g')
+        
         #时间间隔（频率）
         interval=5
 

@@ -117,6 +117,13 @@ function allCrond(){
 
         echo "总下载 ${in_last} KB"
         echo "总上传 ${out_last} KB"
+
+        in_last=$(awk 'NR>2 {rx_sum += $2} END {print "", rx_sum}' /proc/net/dev)
+        out_last=$(awk 'NR>2 {rx_sum += $10} END {print "", rx_sum}' /proc/net/dev)
+        echo "-----"
+        echo "总下载 ${in_last} KB"
+        echo "总上传 ${out_last} KB"
+        
         echo "下载速度 $[ (${traffic_in}/${interval})] KB/s"
         echo "上传速度 $[ (${traffic_out}/${interval})] KB/s"
 

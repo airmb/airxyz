@@ -39,7 +39,6 @@ apt install -y python3-pip chromium-driver
 pip3 install pymysql
 pip3 install requests
 pip3 install selenium
-pip3 install selenium-wire
 pip3 install urllib3
 pip3 install python-telegram-bot
 pip3 install ddddocr

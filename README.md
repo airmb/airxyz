@@ -42,7 +42,7 @@ pip3 install ddddocr
 pip3 uninstall -y Pillow
 pip3 install Pillow==9.5.0
 ```
-#### 1）安装宝塔(此脚本为第三方纯净版本) 安装基础脚本 务必使用debian11系统(建议使用国外服务器，国内服务器屏蔽了一些国外api导致有数不清问题） 最新脚本可以查看宝塔官网
+#### 1）安装宝塔(此脚本为第三方纯净版本，适配了解锁pyc文件，若不使用此脚本的宝塔面板，请手动将你宝塔面板的py版本设置为3.7.9) 安装基础脚本 务必使用debian11系统(建议使用国外服务器，国内服务器屏蔽了一些国外api导致有数不清问题） 最新脚本可以查看宝塔官网
 ```
 wget -O install.sh http://v7.hostcli.com/install/install-ubuntu_6.0.sh && bash install.sh
 ```

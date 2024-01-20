@@ -105,7 +105,7 @@ wget -O airxyz.sh https://raw.githubusercontent.com/airmb/airxyz/main/airxyz.sh 
 
 
 ### 常见问题
-*  若你的vps的ip倍苹果封禁，或者不是动态家宽vps，可以使用http代理，http代理推荐 https://www.ip2world.com 使用我的推荐码```R8MXHLM8NG```注册，有可能享受25%折扣。
+*  若你的vps的ip被苹果封禁，或者不是动态家宽vps，可能无法解锁appleid，会提示```Your request could not be completed because of an error. Try again later.```因此你可以使用http代理，http代理推荐 https://www.ip2world.com 使用我的推荐码```R8MXHLM8NG```注册，有可能享受25%折扣。
 
 * 【问1】为什么不能删除绑定手机/二次验证
 * 【答1】必须要有 ```donnot recognize this number?```（不认识这个号码吗？）提示才可以删除。参考下面两个图片，自行对比。目前我们会提示```此账号无法通过密保删除手机二次验证，请更换账号```

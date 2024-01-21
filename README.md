@@ -22,7 +22,7 @@ air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自�
 ## 服务端 安装教程
 ### 空气面板 airxyz 服务端 基于宝塔详细安装教程
 
-#### 0）安装基础脚本
+#### 1）安装基础脚本
 ```
 apt update
 apt -y install ntpdate
@@ -42,26 +42,26 @@ pip3 install ddddocr
 pip3 uninstall -y Pillow
 pip3 install Pillow==9.5.0
 ```
-#### 1）安装宝塔(此脚本为第三方纯净版本，适配了解锁pyc文件，若不使用此脚本的宝塔面板，请手动将你宝塔面板的py版本设置为3.7.9) 安装基础脚本 务必使用debian11系统(建议使用国外服务器，国内服务器屏蔽了一些国外api导致有数不清问题） 最新脚本可以查看宝塔官网
+#### 2）安装宝塔(此脚本为第三方纯净版本，适配了解锁pyc文件，若不使用此脚本的宝塔面板，请手动将你宝塔面板的py版本设置为3.7.9) 安装基础脚本 务必使用debian11系统(建议使用国外服务器，国内服务器屏蔽了一些国外api导致有数不清问题） 最新脚本可以查看宝塔官网
 ```
 wget -O install.sh http://v7.hostcli.com/install/install-ubuntu_6.0.sh && bash install.sh
 ```
-#### 2）登录宝塔，安装 Nginx1.2+ MySQL5.5+ PHP7.4 phpMyAdmin4.9+
-#### 3）宝塔 进入 软件商店 > PHP设置 > 安装扩展 > 找到ssh2 [点击安装]，还有 PHP设置 > 禁用函数 > exec删除。
-#### 3.1）宝塔 进入 软件商店 > PHP设置 > 重载配置 重启
-#### 4）宝塔 进入 网站 > 添加站点  
+#### 3）登录宝塔，安装 Nginx1.2+ MySQL5.5+ PHP7.4 phpMyAdmin4.9+
+#### 4）宝塔 进入 软件商店 > PHP设置 > 安装扩展 > 找到ssh2 [点击安装]，还有 PHP设置 > 禁用函数 > exec删除。
+#### 5）等待ssh2扩展安装完成后，进入 宝塔 进入 软件商店 > PHP设置 > 点击重载配置 点击重启 
+#### 6）宝塔 进入 网站 > 添加站点  
 ```
 域名 > 填写你解析好的域名
 数据库 > MySQL utf8
 PHP版本 > 你安装的php版本 建议PHP7.4
 其他默认即可
 ```
-#### 5）宝塔 进入 网站 > 站点设置 > SSL [申请证书并开启强制HTTPS]
-#### 6）ssh 进入宝塔网站根目录,运行脚本下载文件
+#### 7）宝塔 进入 网站 > 站点设置 > SSL [申请证书并开启强制HTTPS]
+#### 8）ssh 进入宝塔网站根目录,运行脚本下载文件
 ```
 wget -O update.sh https://raw.githubusercontent.com/airmb/airxyz/main/update.sh && chmod +x update.sh && ./update.sh
 ```
-#### 7）复制一份 ```info.text``` 文件，重命名为 ```info.json```，然后编辑文件
+#### 9）复制一份 ```info.text``` 文件，重命名为 ```info.json```，然后编辑文件
 ```
 {
   "air_host":"你的网站地址",
@@ -71,9 +71,9 @@ wget -O update.sh https://raw.githubusercontent.com/airmb/airxyz/main/update.sh 
   "airOpensslKey":"abcdefg123321"//建议自定义设置其他字符串，主要用于加密
 }
 ```
-#### 8）将网站目录权限改为755，然后导入数据库，数据库 > 导入 > 上传```airxyzXXXXXX.sql.gz```并导入
+#### 10）将网站目录权限改为755，然后导入数据库，数据库 > 导入 > 上传```airxyzXXXXXX.sql.gz```并导入（此文件在你的网站根目录里面）
 
-#### 9）宝塔 计划任务 添加第1个任务 访问url
+#### 11）宝塔 计划任务 添加第1个任务 访问url
 ```
 # 任务名称 air服务器在线状况监控
 # 执行周期 N分钟 设置3分钟
@@ -81,7 +81,7 @@ wget -O update.sh https://raw.githubusercontent.com/airmb/airxyz/main/update.sh 
 https://网站域名/api/airTimer.php
 ```
 
-#### 10）宝塔 计划任务 添加第2个任务 访问url
+#### 12）宝塔 计划任务 添加第2个任务 访问url
 ```
 # 任务名称 air中转线路监控
 # 执行周期 N分钟 设置1分钟
@@ -89,7 +89,7 @@ https://网站域名/api/airTimer.php
 https://网站域名/api/airTimerAll.php
 ```
 
-#### 11）宝塔 计划任务 添加第3个任务 shell脚本
+#### 13）宝塔 计划任务 添加第3个任务 shell脚本
 ```
 # 任务名称 air定时解锁appleid账号
 # 执行周期 N分钟 设置5分钟
@@ -97,7 +97,7 @@ https://网站域名/api/airTimerAll.php
 python3 /www/wwwroot/网站目录名称/main.pyc
 ```
 
-#### 12）尝试打开域名访问面板 默认账号密码 ```admin@airxyz.xyz``` ```111111```
+#### 14）尝试打开域名访问面板 默认账号密码 ```admin@airxyz.xyz``` ```111111```
 
 ## 其他---客户端 一键脚本
 ```

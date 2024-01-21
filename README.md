@@ -47,7 +47,8 @@ pip3 install Pillow==9.5.0
 wget -O install.sh http://v7.hostcli.com/install/install-ubuntu_6.0.sh && bash install.sh
 ```
 #### 2）登录宝塔，安装 Nginx1.2+ MySQL5.5+ PHP7.4 phpMyAdmin4.9+
-#### 3）宝塔 进入 软件商店 > PHP设置 > 安装扩展 > 找到ssh2 [点击安装]，还有 PHP设置 > 禁用函数 > exec删除
+#### 3）宝塔 进入 软件商店 > PHP设置 > 安装扩展 > 找到ssh2 [点击安装]，还有 PHP设置 > 禁用函数 > exec删除。
+#### 3.1）宝塔 进入 软件商店 > PHP设置 > 重载配置 重启
 #### 4）宝塔 进入 网站 > 添加站点  
 ```
 域名 > 填写你解析好的域名

@@ -106,7 +106,7 @@ wget -O airxyz.sh https://raw.githubusercontent.com/airmb/airxyz/main/airxyz.sh 
 
 ### 常见问题
 *  若你的vps的ip被苹果封禁，或者不是动态家宽vps，可能无法解锁appleid，会提示```Your request could not be completed because of an error. Try again later.```因此你可以使用http代理，http代理推荐 https://www.ip2world.com 在注册账号时候，使用我的注册推荐码```R8MXHLM8NG```注册，有可能享受25%折扣。当然，你可以使用其他任何可以用的http代理提供商，不一定非要使用```ip2world```，google搜索会出现一大堆。
-*  请注意 务必将你的vps的ip添加到代理商接口的白名单里面！！！否则可能会http代理你设置了提示接口无效！！
+*  请注意 务必将你的vps的ip添加到代理商接口的白名单里面！！！否则可能会http代理你设置了提示接口无效！！检测是否生效的办法就是用你的vps运行脚本`curl http代理连接`，查看是否有正确的`ip:port`
 
 * 【问1】为什么不能删除绑定手机/二次验证
 * 【答1】必须要有 ```donnot recognize this number?```（不认识这个号码吗？）提示才可以删除。参考下面两个图片，自行对比。目前我们会提示```此账号无法通过密保删除手机二次验证，请更换账号```

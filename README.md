@@ -26,6 +26,8 @@ air.airxyz.xyz 空气面板 服务器运维监控 线路负载均衡 AppleID自�
 ```
 apt update
 apt -y install ntpdate
+```
+```
 timedatectl set-timezone Asia/Shanghai
 ntpdate ntp1.aliyun.com
 ```
